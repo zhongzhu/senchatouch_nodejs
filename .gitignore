@@ -26,3 +26,15 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+public/blog/.architect
+public/blog/.sencha
+public/blog/build
+public/blog/touch
+public/blog/bootstrap.js
+public/blog/bootstrap.json
+public/blog/resources/sass/.sass-cache
+public/blog/app.json
+public/blog/app.json.*
+public/blog/build.xml
+public/blog/build.settings

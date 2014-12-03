@@ -1,0 +1,35 @@
+{
+    "type": "Ext.dataview.List",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoDestroy": false,
+        "designer|initialView": true,
+        "designer|userClassName": "MyList",
+        "fullscreen": true,
+        "store": "MyJsonStore"
+    },
+    "name": "MyList",
+    "designerId": "087e191e-bc59-41ca-b07b-1e1eac570892",
+    "cn": [
+        {
+            "type": "Ext.XTemplate",
+            "reference": {
+                "name": "itemTpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "itemTpl",
+                "implHandler": [
+                    "{name}"
+                ]
+            },
+            "name": "itemTpl",
+            "designerId": "c7bfbc06-1afd-42e4-96f1-a0428ad84abf"
+        }
+    ]
+}
